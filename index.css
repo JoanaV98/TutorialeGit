@@ -1,0 +1,216 @@
+*{
+	margin: 10 auto;
+	padding: 80;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #C20819;
+}
+.navegacion1{
+	width: 1000px;
+	margin: 30px auto;
+	background: #1F43F7;
+}
+.navegacion2{
+	width: 1000px;
+	margin: 30px auto;
+	background: #4B4B4B;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 30px 100px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: burlywood;
+	text-align: center;
+	font-size: 22px;
+	
+}
+
+.menu li b:hover{
+	color: #000000;
+	transition: all .3s;
+}
+
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.etiqueta p
+{
+    display: block;
+    width: 15rem;
+    height: .5rem;
+	font-family: 'Arial';
+   
+    
+}
+
+
+.imgs
+{
+	list-style: none;
+    padding: 0px 45px;
+    display: flex; 
+    flex: 1; 
+	
+
+}
+
+.imgs em
+{
+	list-style: none;
+    padding: 50px;
+    display: flex; 
+    flex: 1; 
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5; 
+	font-size: 20px;
+	color: black;
+}
+.imgs b
+{
+	list-style: none;
+    padding: 50px;
+    display: flex; 
+    flex: 1; 
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5; 
+	font-size: 25px;
+	color: blueviolet;
+}
+
+.images:hover 
+{
+	-webkit-transform:scale(1.3);transform:scale(1.3);
+    overflow:hidden;
+}
+/*filter: opacity(.5);*/
+
+.text b
+{
+	list-style: none;
+    padding: 10px;
+    display: flex; 
+    flex: 1; 
+	font-family: monospace; sans-serif;
+	font-size: 30px;
+	color: #C20819;
+}
+
+.text em
+{
+	list-style: none;
+    padding: 20px;
+    display: flex; 
+    flex: 4; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: black;
+	line-height: 1.5;
+}
+.desc b
+{
+	list-style: none;
+    padding: 80px;
+    flex: 1; 
+	font-family:  monospace;, sans-serif;
+	font-size: 30px;
+	color: blue;
+}
+
+.desc em
+{
+	list-style: none;
+    padding: 100px;
+    display: flex; 
+    flex: 4; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: black;
+	line-height: 1.5;
+}
+
+/*Página de inde*/
+#myBtni {
+  display: none; /* Oculto por defecto */
+  position: fixed; /* Posición fija / pegajosa*/
+  bottom: 20px; /* Coloque el botón en la parte inferior de la página. */
+  right: 30px; /* Coloca el botón 30px de la derecha. */
+  z-index: 99; /* Asegúrese de que no se superponga */
+  border: none; /* Quitar bordes */
+  outline: none; /* Quitar contorno*/
+  background-color:#C20819; /* Establecer un color de fondo */
+  color: white; /* Color de texto */
+  cursor: pointer; /* Añadir un puntero del ratón en el hover */
+  padding: 15px; /* Algo de relleno */
+  border-radius: 10px; /* Esquinas redondeadas */
+  font-size: 18px; /* Aumenta el tamaño de la fuente */
+}
+#myBtni:hover {
+  background-color: #555;
+}
+
+
+/*Página de para que sirve*/
+#myBtnp {
+  display: none; /* Oculto por defecto */
+  position: fixed; /* Posición fija / pegajosa*/
+  bottom: 20px; /* Coloque el botón en la parte inferior de la página. */
+  right: 30px; /* Coloca el botón 30px de la derecha. */
+  z-index: 99; /* Asegúrese de que no se superponga */
+  border: none; /* Quitar bordes */
+  outline: none; /* Quitar contorno*/
+  background-color: blue; /* Establecer un color de fondo */
+  color: white; /* Color de texto */
+  cursor: pointer; /* Añadir un puntero del ratón en el hover */
+  padding: 15px; /* Algo de relleno */
+  border-radius: 10px; /* Esquinas redondeadas */
+  font-size: 18px; /* Aumenta el tamaño de la fuente */
+}
+#myBtnp:hover {
+  background-color: #555;
+}
+
+
+/*Página de para su uso*/
+#myBtnu {
+  display: none; /* Oculto por defecto */
+  position: fixed; /* Posición fija / pegajosa*/
+  bottom: 20px; /* Coloque el botón en la parte inferior de la página. */
+  right: 30px; /* Coloca el botón 30px de la derecha. */
+  z-index: 99; /* Asegúrese de que no se superponga */
+  border: none; /* Quitar bordes */
+  outline: none; /* Quitar contorno*/
+  background-color:black; /* Establecer un color de fondo */
+  color: white; /* Color de texto */
+  cursor: pointer; /* Añadir un puntero del ratón en el hover */
+  padding: 15px; /* Algo de relleno */
+  border-radius: 10px; /* Esquinas redondeadas */
+  font-size: 18px; /* Aumenta el tamaño de la fuente */
+}
+#myBtnu:hover {
+  background-color: #555;
+}

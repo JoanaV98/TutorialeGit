@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<header>
+			<nav class="navegacion2">
+				<ul class="menu">
+					<li><a href="index.html">Descripción</a></li>
+					<li><a href="pqs.html">Para qué sirve</a></li>
+					<li><a href="uso.html">Uso de ellos</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<br>
+		<br>
+		<span class="ir-arriba icon-arrow-up2"></span>
+		<button onclick="topFunction()" id="myBtnu" title="Go to top">Ir al principio</button>
+		<section class="contenedor">
+			<CENTER><h1><em>Tutorial de comandos Git en página web
+			</em></h1></CENTER><br><br>
+			<center><img src="imagenes/g.jpg" height="150px" width="250px"></center>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="primeraP">
+				<div class="imgs">
+					<br>
+					<br>
+
+					<em>Primer paso a realizar es, crear una carpeta para guardar el proyecto</em>
+					<br>
+               			 <img src="imagenes/img1.png" alt="" class="images" >
+           		</div>
+				<br>
+				<br>
+				<div class="imgs">
+					<em>Después se abre la terminal de Git Bash  para poder utilizar ambos comandos(Windows y Linux)
+					</em>
+					<br>
+               			 <img src="imagenes/img2.png" awidth="270px" height="90px"class="images">
+           		</div>
+				<br>
+				<br>
+
+				<div class="imgs">
+					<em>Se abre la terminal de Git Bash para comenzar a colocar los comandos 
+					</em>
+					<br>
+               			<img src="imagenes/img3.png" width="270px" height="110px" class="images">
+           		</div>
+				<br>
+				<br>
+
+				<div class="imgs">
+					<em>Se abre la terminal de Git Bash para comenzar a colocar los comandos 
+					</em>
+					<br>
+               		    <img src="imagenes/img4.png" width="700px" height="200px" class="images">
+           		</div>
+				<br>
+				<br>
+				   
+				<div class="imgs">
+					<em>Después se coloca el comando git status para poder ver los proyectos, pero se observa que, aún no están agregados.
+					</em>
+					<br>
+               		    <img src="imagenes/img5.png" width="700px" height="200px" class="images">
+           		</div>
+				<br>
+				<br>
+				<div class="imgs">
+					<em>Después se coloca el comando git add para poder agregar el archivo index.html
+					</em>
+					<br>
+               		    <img src="imagenes/img6.png" width="700px" height="90px" class="images">
+           		</div>
+				<br>
+				<br>
+				<div class="imgs">
+					<em>Después se coloca el comando git status para poder ver los proyectos,<br>
+						 se observa que index.html ya esta agregado ya se pueden controlar sus cambios u movimientos.
+					</em>
+					<br>
+               		    <img src="imagenes/img7.png" width="720px" height="260px" class="images">
+           		</div>
+				<br>
+				<br>
+				<div class="imgs">
+					<em>Después se coloca el comando git add para poder agregar el archivo index.css
+					</em>
+					<br>
+               		    <img src="imagenes/img8.png" width="720px" height="90px" class="images">
+           		</div>
+				<br>
+				<br>
+				<div class="imgs">
+					<em>Después se coloca el comando git status para poder ver los proyectos,<br>
+						 se observa que index.html e index.css ya estan agregados, ya se pueden controlar sus cambios u movimientos.
+					</em>
+					<br>
+               		    <img src="imagenes/img9.png" width="720px" height="200px" class="images">
+           		</div>
+				<br>
+				<br>
+				<div class="imgs">
+					<em>Después se coloca el comando git config --global user.email seguido de un correo electrónico 
+
+					</em>
+					<br>
+               		    <img src="imagenes/img10.png" width="700px" height="100px" class="images">
+           		</div>
+				<br>
+				<br>
+				<div class="imgs">
+					<em>Después se coloca el comando git config --global user.neame seguido de un nombre de usuario 
+
+					</em>
+					<br>
+               		    <img src="imagenes/img11.png" width="700px" height="100px" class="images">
+           		</div>
+				<br>
+				<br>
+				<div class="imgs">
+					<em>Después se coloca el comando git commit para tener la imagen de la primera versión del proyecto, se abre el editor bin y agregamos un mensaje.
+					</em>
+					<br>
+               		    <img src="imagenes/img12.png" width="700px" height="150px" class="images">
+           		</div>
+
+			</div>
+		</section>
+		<script>
+		// Cuando el usuario se desplaza hacia abajo 20 px desde la parte superior del documento, muestra el botón
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() 
+			{
+  				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+  				{
+    				document.getElementById("myBtnu").style.display = "block";
+  				} else
+  			 	{
+    				document.getElementById("myBtnu").style.display = "none";
+ 			 	}
+			}
+
+			function topFunction() 
+			{
+  				document.body.scrollTop = 0; // Para safari
+  				document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE y Opera
+			}
+		</script>
+	</body>
+</html>

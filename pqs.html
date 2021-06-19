@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<br>
+		<br>
+		<header>
+			<nav class="navegacion1">
+				<ul class="menu">
+					<li><a href="index.html">Descripción</a></li>
+					<li><a href="pqs.html">Para qué sirve</a></li>
+					<li><a href="uso.html">Uso de ellos</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<br>
+		<br>
+		<button onclick="topFunction()" id="myBtnp" title="Go to top">Ir al principio</button>
+		<section class="contenedor">
+			<CENTER><h1>¿Para que sirven los comandos?
+			</h1></CENTER><br><br>
+			<center><img src="imagenes/cm.png" height="150px" width="280px"></center>
+			<br>
+			<br>
+			<div class="primeraP">
+				<div class="desc">
+					<b>git-init:</b>
+					<em>El comando git init crea un nuevo repositorio de Git. Puede utilizarse para convertir un proyecto existente y sin versión en un repositorio de Git, o para inicializar un nuevo repositorio vacío. ... git en el directorio de trabajo actual, que contiene todos los metadatos de Git necesarios para el nuevo repositorio.</em>
+           		</div>
+           		<div class="desc">
+					<b>git-status:</b>
+					<em> El comando git status es un comando relativamente sencillo. Simplemente, muestra lo que ha ocurrido con los comandos git add y git commit. Los mensajes de estado también incluyen información importante para preparar archivos o deshacer su preparación. A continuación, se indica el resultado de ejemplo que muestra las tres categorías principales de una llamada de git status:</em>
+					<br>
+           		</div>
+           		<div class="desc">
+					<b>git-add:</b>
+					<em>Pieza fundamental del flujo básico de git ya que es el comando que mueve al índice las modificaciones que hayamos realizado. El índice es un snapshot del contenido del área de trabajo en un momento dado. Este snapshot es el que posteriormente se convertirá.
+					</em>
+           		</div>
+           		<div class="desc">
+					<br>
+					<b>git-commit:</b>
+					<em>Las confirmaciones se crean con el comando git commit para capturar el estado de un proyecto en ese determinado momento. Las instantáneas de Git siempre se confirman en el repositorio local.</em>
+					<br>
+           		</div>
+           		<div class="desc">
+					<b>git-checkout:</b>
+					<em> Checkout un commit específico
+					-Para realizar un checkout a un commit específico, ejecuta el comando:
+					git checkout id-del-commit-específico podemos obtener el identificador (id) del commit específico ejecutando: git log
+					-Checkout a una Rama (Branch) Existente
+					Para realizar checkout a una rama existente, ejecuta el comando: git checkout NOMBRE-DE-LA-RAMA</em>
+           		</div>
+           		<div class="desc">
+					<b>git-restore:</b>
+					<em> se usa para restablecer el archivo a su contenido anterior, perdiendo los cambios que realizaras. git reset, en su lugar, lo quita de la zona de preparación del próximo commit. Se trata de restaurar archivos en el árbol de trabajo desde el índice u otra confirmación.
+					git-restore se puede usar en tres modos diferentes, dependiendo de si desea revertir el trabajo en la copia de trabajo, en el índice o en ambos.
+					-git restore [--worktree] file sobrescribe archivo en su copia de trabajo con loscontenidos en su índice (*). En otras palabras, revierte sus cambios en la copia de trabajo. Si especifica --worktree o no no importa porque está implícito si no dice lo contrario.
+
+					-git restore --staged file sobrescribe file en su índice con el actual HEAD del repositorio local. En otras palabras, desestabiliza el contenido previamente organizado. Hasta ahora, de hecho es equivalente al antiguo git reset HEAD file.
+
+					Para sobrescribir tanto la copia de trabajo como el índice con el HEAD actual, use git restore --staged --worktree --source HEAD file. Esta versión hace ambas cosas: revierte tu copia de trabajo a HEAD y desestabiliza el trabajo previamente organizado.</em>			
+           		</div>
+           		<div class="desc">
+					<b>git-diff:</b>
+					<em>cuando se ejecuta, lleva a cabo una función para establecer las diferencias en los orígenes de datos de Git. Dichos orígenes de datos pueden ser confirmaciones, ramas y archivos, entre otras posibilidades. El comando git diff suele utilizarse junto con git status y git log para analizar el estado actual de un repositorio de Git.<br>El comando git diff también tiene un modo especial para resaltar los cambios con un nivel de detalle muy superior: ‐‐color-words. Este modo tokeniza las líneas añadidas y eliminadas mediante espacios en blanco y luego muestra las comparaciones.</em>
+           		</div>
+           		<div class="desc">
+					<b>git-branch:</b>
+					<em>El comando git branch permite crear, enumerar, cambiar el nombre y eliminar ramas. No permite cambiar entre ramas o volver a unir un historial bifurcado. Por este motivo, git branch está estrechamente relacionado con los comandos git checkout y git merge.
+					La principal utilidad que tienen los branch es la de organizar nuestro trabajo, por ejemplo:
+					-para desarrollar una nueva funcionalidad sin afectar al master mientras lo hacemos.
+					-para hacer un hotfix en una versión que ya ha salido a producción.</em>
+           		</div>
+           		<div class="desc">
+					<b>git-clone:</b>
+					<em>se utiliza principalmente para apuntar a un repositorio existente y clonar o copiar dicho repositorio en un nuevo directorio, en otra ubicación. El repositorio original se puede localizar en el sistema de archivos local o en los protocolos admitidos a los que se puede acceder por máquina remota.</em>
+           		</div>
+           			<div class="desc">
+					<b>git-log:</b>
+					<em>lista las confirmaciones hechas sobre ese repositorio en orden cronológico inverso. Es decir, las confirmaciones más recientes se muestran al principio. Como puedes ver, este comando lista cada confirmación con su suma de comprobación SHA-1, el nombre y dirección de correo del autor, la fecha y el mensaje de confirmación.
+
+					Proporciona gran cantidad de opciones para mostrarte exactamente lo que buscas. Aquí veremos algunas de las más usadas.
+
+					Una de las opciones más útiles es -p, que muestra las diferencias introducidas en cada confirmación. También puedes usar la opción -2, que hace que se muestren únicamente las dos últimas entradas del historial:</em>
+           		</div>
+           			<div class="desc">
+					<b>git-fetch:</b>
+					<em> descargará el contenido remoto sin modificar el estado del repositorio local. En cambio, git pull descargará el contenido remoto y tratará inmediatamente de cambiar el estado del repositorio local para reflejar ese contenido.</em>
+           		</div>
+           		</div>
+           			<div class="desc">
+					<b>git-merge:</b>
+					<em>se da cuando los cambios se unen en una rama corta con respecto a la otra. Resumen de clase: Master: Esta es la rama donde se inicia siempre por defecto (se le puede asignar cualquier nombre), a partir de esta rama se crean todas las ramas, en esta rama estan todos los cambios de tus archivos.</em>
+           		</div>
+           		</div>
+           			<div class="desc">
+					<b>git push:</b>
+					<em>si se quiere subir todos tus cambios al repositorio remoto con todo y sus ramas, se puede utilizar: git push --all NOMBRE-REMOTO el cual: --all es la bandera que señala que quieres subir todas las ramas al repositorio remoto. NOMBRE-REMOTO es el nombre del repositorio remoto al cual las quieres subir.
+					Si quieres ignorar los cambios locales hechos al repositorio Git en Github(Lo cual hacen la mayoría de desarrolladores para dar una solución rápida al servidor de desarrollo) luego puedes usar el comando —force para subir ignorando esos cambios.
+					git push --force NOMBRE-REMOTO RAMA-REMOTA
+					En la cual: -NOMBRE-REMOTO es el nombre del repositorio remoto al cual quieres subir los cambios.
+					-RAMA-REMOTA es el nombre de la rama remota a la cual quieres subir los cambios.</em>
+           		</div>
+           		</div>
+           			<div class="desc">
+					<b>git pull:</b>
+					<em>cuando realizamos un git pull estamos sincronizando y trayéndonos todos los cambios del repositorio remoto a la rama en la que estemos trabajando actualmente, sin necesidad de ejecutar ningún comando extra</em>
+           		</div>
+           		</div>
+           			<div class="desc">
+					<b>git-rm:</b>
+					<em>nos ayuda a eliminar archivos de Git sin eliminar su historial del sistema de versiones. Esto quiere decir que si necesitamos recuperar el archivo solo debemos “viajar en el tiempo” y recuperar el último commit antes de borrar el archivo en cuestión.
+					Recuerda que git rm no puede usarse así nomás. Debemos usar uno de los flags para indicarle a Git cómo eliminar los archivos que ya no necesitamos en la última versión del proyecto:
+
+					-git rm --cached: Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro.
+					-git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados).</em>
+           		</div>
+           		</div>
+           			<div class="desc">
+					<b>git-switch:</b>
+					<em>cambia a una rama específica. El árbol de trabajo y el índice se actualizan para que coincidan con la rama. Todas las nuevas confirmaciones se agregarán a la punta de esta rama.</em>
+           		</div>
+           		</div>
+           			<div class="desc">
+					<b>git-remote:</b>
+					<em>se usa para administrar sus servidores centrales para alojar sus repositorios git. Supongamos que estoy trabajando con GitHub y BitBucket para los servidores centrales de los repositorios git y he creado repositorios en ambos sitios web para mi proyecto de primera aplicación.</em>
+           		</div>
+			</div>
+		</section>
+
+		<script>
+		// Cuando el usuario se desplaza hacia abajo 20 px desde la parte superior del documento, muestra el botón
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() 
+			{
+  				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+  				{
+    				document.getElementById("myBtnp").style.display = "block";
+  				} else
+  			 	{
+    				document.getElementById("myBtnp").style.display = "none";
+ 			 	}
+			}
+
+			function topFunction() 
+			{
+  				document.body.scrollTop = 0; // Para safari
+  				document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE y Opera
+			}
+		</script>
+	</body>
+</html>
