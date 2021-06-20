@@ -23,7 +23,7 @@
  });
 
 
- route.get("../", (req,res) =>
+ route.get("vistas/imagenes", (req,res) =>
  {
     //res.send("Peticion solucionada");
     res.sendFile("imagenes",options);
