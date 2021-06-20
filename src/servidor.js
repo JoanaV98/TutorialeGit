@@ -9,6 +9,7 @@ servidor.set("views",path.join(__dirname,"vistas"));
 
 //herramientas intermedias (niddlware)
 
+
 //rutas (routes)
 servidor.use(require("./rutas/solicitudes.js"));
 
